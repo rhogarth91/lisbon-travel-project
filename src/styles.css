@@ -1,6 +1,21 @@
 body {
-  font-family: Poppins;
+  font-family: "Poppins";
   background: rgba(24, 21, 37, 1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
@@ -51,12 +66,48 @@ header a {
   padding: 16px 32px;
 }
 
-.container {
-  max-width: 1200px;
+footer {
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/lisbon-landscape-view.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
   margin: 0 auto;
 }
 
-@media (max-width 900px) {
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media (max-width 960px) {
   header {
     padding: 70px, 0;
   }
