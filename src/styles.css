@@ -14,6 +14,7 @@ body {
 }
 
 .img-responsive {
+  display: block;
   max-width: 100%;
 }
 
@@ -21,8 +22,46 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-col-narrow-first-col {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.card {
+  background: rgba(39, 36, 53, 1);
+  box-shadow: 20px 20px 40px 0px rgba(7, 5, 19, 0.2);
+  margin: 30px;
+}
+
+.card-body {
+  padding: 24px 32px;
+}
+
+.card-body p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.card-footer {
+  display: block;
+  background: rgba(70, 44, 178, 1);
+  text-align: center;
+  padding: 16px 32px;
+}
+
+.card-footer a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #fff;
 }
 
 section {
@@ -123,6 +162,22 @@ main h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
+  text-align: left;
+  margin: 0;
+}
+
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  margin: 0;
+}
+
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
   text-align: left;
   margin: 0;
 }
