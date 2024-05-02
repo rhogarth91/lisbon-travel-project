@@ -48,6 +48,22 @@ body {
   opacity: 0.7;
 }
 
+.card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  margin: 0;
+}
+
+.card h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  margin: 0;
+}
+
 .card-footer {
   display: block;
   background: rgba(70, 44, 178, 1);
@@ -162,22 +178,6 @@ main h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
-  text-align: left;
-  margin: 0;
-}
-
-main h4 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1;
-  text-align: left;
-  margin: 0;
-}
-
-main h5 {
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1;
   text-align: left;
   margin: 0;
 }
