@@ -15,7 +15,7 @@ body {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .grid-2-col {
@@ -34,6 +34,15 @@ body {
   background: rgba(39, 36, 53, 1);
   box-shadow: 20px 20px 40px 0px rgba(7, 5, 19, 0.2);
   margin: 30px;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .card-body {
@@ -233,7 +242,7 @@ footer a {
   margin: 0;
 }
 
-@media (max-width 960px) {
+@media (max-width: 960px) {
   header {
     padding: 70px, 0;
   }
@@ -257,5 +266,13 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
